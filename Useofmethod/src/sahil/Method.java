@@ -1,7 +1,8 @@
 package sahil;
-
+import java.util.Scanner;
 public class Method {
 	static void printnumber(int n ) {
+		//use of method to find out prime
 		
 		int temp;
 		
@@ -22,8 +23,10 @@ public class Method {
 	
 
 	public static void main(String[] args) {
-		int x=4;
-		printnumber (x);
+		System.out.println("enter number");
+		Scanner input = new Scanner(System.in);
+		int d = input.nextInt();
+		printnumber (d);
 
 	}
 
